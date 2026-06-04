@@ -6,7 +6,7 @@ function Inventory() {
 
   useEffect(() => {
 
-    fetch("http://127.0.0.1:5000/inventory")
+    fetch("https://retailiq-ai-backend.onrender.com/inventory")
       .then((response) => response.json())
       .then((data) => setInventory(data));
 

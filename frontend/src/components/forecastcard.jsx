@@ -6,7 +6,7 @@ function ForecastCard() {
 
   useEffect(() => {
 
-    fetch("http://127.0.0.1:5000/sales-forecast")
+    fetch("https://retailiq-ai-backend.onrender.com/sales-forecast")
       .then((response) => response.json())
       .then((data) => setPrediction(data.prediction));
 

@@ -6,7 +6,7 @@ function Customers() {
 
   useEffect(() => {
 
-    fetch("http://127.0.0.1:5000/customers")
+    fetch("https://retailiq-ai-backend.onrender.com/customers")
       .then((response) => response.json())
       .then((data) => setCustomers(data));
 

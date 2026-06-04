@@ -13,7 +13,7 @@ function Dashboard() {
 
   useEffect(() => {
 
-    fetch("http://127.0.0.1:5000/dashboard")
+    fetch("https://retailiq-ai-backend.onrender.com/dashboard")
       .then((response) => response.json())
       .then((data) => setDashboardData(data));
 

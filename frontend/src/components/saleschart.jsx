@@ -16,7 +16,7 @@ function SalesChart() {
 
   useEffect(() => {
 
-    fetch("http://127.0.0.1:5000/sales-chart")
+    fetch("https://retailiq-ai-backend.onrender.com/sales-chart")
       .then((response) => response.json())
       .then((data) => setData(data));
 
